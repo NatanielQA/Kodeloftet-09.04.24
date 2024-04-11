@@ -9,8 +9,8 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
- <!--    <script type="module" src="script.js"></script> -->
- <script type="module" scr="lesson.js"></script>
+    <script type="module" src="script.js"></script>
+ <!-- <script type="module" scr="lesson.js"></script> -->
   </head>
   <body>
     <form id="myForm">
@@ -22,7 +22,40 @@
     </form>
     <main>
       <h1>Home page</h1>
-      <p>Thank you <div id="displayUsername"></div>Your voluentary participation is appreciated. If there is anything we need from you, you will be contacted at: <div id="displayEmail"></div></p>
+      <p>Thank you <div id="displayUsername"></div>Your voluentary participation is appreciated. <br>If there is anything we need from you, you will be contacted at: <div id="displayEmail"></div></p>
     </main>
+    <form id="Konverter" type="text">
+      <label for="MM">MM:</label>
+      <input id="valueMM" name="ValueMM"></textarea>
+      <br>
+      <label for="CM">CM:</label>
+      <input id="valueCM" name="valueCM">
+      <br>
+      <label for="M">M:</label>
+      <input id="valueM" name="valueM">
+      <br>
+      <label for="KM">KM:</label>
+      <input id="valueKM" name="ValueKM"></textarea>
+      <br>
+      <label for="Mile">Mile:</label>
+      <input id="valueMile" name="ValueMile"></textarea>
+      <br>
+      <input type="submit" value="Converter">
+    </form>
+
+    <form>
+      <input id="inputValue" type="text">
+      <label for="fromValue">Convert from:</label>
+      <select name="fromValue" id="fromValue">
+        <option value="CM">CM</option>
+        <option value="M">M</option>
+        <option value="KM">KM</option>
+        <option value="Mile">Mile</option>
+      </select>
+      <button id="submitValue">Convert</button>
+
+
+
+    </form>
   </body>
 </html>

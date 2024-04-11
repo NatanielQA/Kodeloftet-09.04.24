@@ -10,3 +10,5 @@ if (value === 10) {
     else {
         console.log('This is smaller than 10')
 }
+
+
